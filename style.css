@@ -1,51 +1,51 @@
+.gradient-background {
+    background: linear-gradient(300deg, #D2E0FB, #FEF9D9, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 
-html{
-    background-color:#C0C78C;
-}
-
-h1{
-    font-family: "Bungee Tint", sans-serif;
+  .nerko-one-regular {
+    font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-  text-align: center;
+    font-size: 80px;
   }
 
- h2,figure{
-    text-align: center;
+  #title{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  
-a, li{
-    color: #FEFAE0;
-   text-align: center;
-   list-style: none;
-}
 
-.all-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-height:100vh;
-}
+  #features{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
 
+ a, .card-title{
+    color: #8EACCD;
+    font-size:xxx-large;
+ }
 
-li{
-    background-color:#B99470 ;
-    width: 300px;
-    text-align: center;
-}
-
-h3{
-    color: black;
-    text-align: left;
-}
-@media(max-width:600px){
-    .all-container{
-        font-size: x-small;
-    }
-
-    img{
-        height:70%;
-        width: 70%;
-    }
-}
+ .contact{
+    font-size:large;
+    color:gray;
+ }
